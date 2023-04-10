@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+        <div>
+            <label>Nume </label>
+        <input>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" Email="Email">
+          </div>
+
+          <div>
+            <label for="Metoda de plata">Metoda de plata</label>
+            <select name="Metoda de plata" id="Metoda de plata">
+            <option value="plata cash">plata cash</option>
+            <option value="plata online cu cardul">plata online cu cardul</option>
+            <option value="transfer bancar">transfer bancar</option>
+            </select>
+
+
+          </div>
+
+          <div>
+            <label for="doresc să primesc informații pe mail">Doresc să primesc informații pe mail</label>
+            <input type="checkbox"
+            </div>
+
+            <div>
+            <label for="Sunt de acord cu termenii și condițiile">Sunt de acord cu termenii și condițiile</label>
+            <input type="checkbox"
+            </div>
+
+
+          <div>
+            <button>Submit</button>
+          </div>
+        
+
+
+    </form>
+</body>
+</html>
+
+
+
