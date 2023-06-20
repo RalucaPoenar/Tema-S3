@@ -7,20 +7,21 @@
     <title>Document</title>
 </head>
 <body>
+    //deocamdata nu folosim proprietatile de pe form, dar nu strica nimic daca le pui aici
     <form action="results.html" method="GET">
         <div>
-            <label>Nume </label>
-        <input>
+            <label for="nume">Nume </label>
+            <input type="text" id="nume">
         </div>
 
         <div>
-            <label>Email</label>
-            <input type="email" Email="Email">
+            <label for="Email">Email</label>
+            <input type="email" id="Email">
           </div>
 
           <div>
-            <label for="Metoda de plata">Metoda de plata</label>
-            <select name="Metoda de plata" id="Metoda de plata">
+            <label for="Metoda-de-plata">Metoda de plata</label>
+            <select name="Metoda-de-plata" id="Metoda de plata">
             <option value="plata cash">plata cash</option>
             <option value="plata online cu cardul">plata online cu cardul</option>
             <option value="transfer bancar">transfer bancar</option>
@@ -31,17 +32,18 @@
 
           <div>
             <label for="doresc să primesc informații pe mail">Doresc să primesc informații pe mail</label>
-            <input type="checkbox"
+            <input type="checkbox" id="...">
             </div>
 
             <div>
             <label for="Sunt de acord cu termenii și condițiile">Sunt de acord cu termenii și condițiile</label>
-            <input type="checkbox"
+            <input type="checkbox" id="">
             </div>
 
 
           <div>
-            <button>Submit</button>
+          // daca nu specificam type-ul, formularul nu va stii ce e cu butonul respectiv si ce vrem sa facem cu el. deocamdata nu ne influenteaza daca lipseste, dar cand vom prelucra formularul in partea de JS nu va merge cum trebuie fara type
+            <button type="submit">Submit</button>
           </div>
         
 
